@@ -13,5 +13,4 @@ const toClick = () => {
   textContainer.append(text);
 };
 
-
 button.onclick = toClick;
