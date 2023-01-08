@@ -8,7 +8,6 @@ const allDishes = () => {
 
 allDishes()
 
-
 const randomDish = () => {
     console.log(dishes[Math.floor(Math.random()*dishes.length)]); 
 } 

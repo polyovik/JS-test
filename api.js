@@ -17,9 +17,8 @@ const getUsers = async () => {
 }
 
 const getFirstNames = async ()  => {
-    const users = await getUsers();
+    const users = await getUsers()
     users.forEach((user) => {
         namesContainer.innerHTML = user.first_name
-    });
-    
+    }); 
 }
